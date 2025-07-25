@@ -37,3 +37,30 @@ lib/
 │   ├── common_widgets/        # Reusable widgets (buttons, cards, headers)
 │   └── feature/               # Features like home, booking, settings, history
 └── main.dart                  # Entry point of the app
+```
+
+## 📦 Installing
+
+Follow these steps to set up and run the project locally:
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/backbencherstudio/zoo_ticket_booking_app.git
+
+# 2. Navigate into the project directory
+cd zoo_ticket_booking_app
+
+# 3. Get Flutter packages
+flutter pub get
+
+# 4. (Optional) Run on a connected device or emulator
+flutter run
+```
+
+## 📸 Screenshots
+
+
+---
+
+Feel free to contribute, fork, or customize this project to suit your zoo’s unique features and branding!
+
