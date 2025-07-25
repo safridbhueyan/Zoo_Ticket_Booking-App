@@ -1,0 +1,16 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:go_router/go_router.dart';
+import 'package:zoo_app/core/routes/route_name.dart';
+import 'package:zoo_app/core/theme/theme_extension/app_colors.dart';
+import 'package:zoo_app/core/utils/utils.dart';
+import 'package:zoo_app/src/features/profile_screen/screens/manage_notifications/widgets/notification_row.dart';
+import 'package:zoo_app/src/features/profile_screen/view_model/notification_provider.dart';
+import 'package:zoo_app/src/features/profile_screen/widgets/editing_filed/change_name.dart';
+import '../../../../../core/constant/icons.dart';
+import '../screens/profile_info_screen/widgets/delete_sheet_content.dart';
+import '../widgets/accout_option_tile.dart';
+import '../widgets/editing_filed/change_email.dart';
+import '../widgets/editing_filed/change_password.dart';
+part 'widget_list.dart';

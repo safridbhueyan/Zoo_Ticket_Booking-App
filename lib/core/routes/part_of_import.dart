@@ -1,0 +1,26 @@
+import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:zoo_app/core/routes/route_name.dart';
+import 'package:zoo_app/src/features/animals_list_screen/presentation/animals_list_screen.dart';
+import 'package:zoo_app/src/features/auth_screens/forgot_password_screen/presentation/create_new_password_screen.dart';
+import 'package:zoo_app/src/features/auth_screens/sign_up_screen/presentation/sign_up_screen.dart';
+import 'package:zoo_app/src/features/profile_screen/screens/faq/FAQ_screen.dart';
+import 'package:zoo_app/src/features/profile_screen/screens/payment_details_screen/payment_details_screen.dart';
+import 'package:zoo_app/src/features/profile_screen/screens/profile_info_screen/profile_info_screen.dart';
+import 'package:zoo_app/src/features/ticket_screen/presentation/birthdayparty%20screen/birthday_screen.dart';
+import 'package:zoo_app/src/features/ticket_screen/presentation/field%20trip%20screen/fieldTrip_screen.dart';
+import 'package:zoo_app/src/features/ticket_screen/presentation/field%20trip%20screen/package_detail_screen.dart';
+import 'package:zoo_app/src/features/ticket_screen/presentation/general%20admission%20screens/general_Admission_screen.dart';
+import 'package:zoo_app/src/features/ticket_screen/presentation/ticket_screen.dart';
+import '../../src/common_widgets/bottom_navigation_bar/bottom_nav_bar.dart';
+import '../../src/features/auth_screens/forgot_password_screen/presentation/forgot_password_screen.dart';
+import '../../src/features/auth_screens/sign_in_screen/presentation/sign_in_screen.dart';
+import '../../src/features/home_screen/presentation/home_screen.dart';
+import '../../src/features/map_screen/presentation/map_screen.dart';
+import '../../src/features/profile_screen/screens/my_bookings/my_bookings.dart';
+import '../../src/features/profile_screen/screens/manage_notifications/manage_notifications.dart';
+import '../../src/features/profile_screen/screens/profile_screen.dart';
+import '../../src/features/splash_screen/presentation/splash_screen.dart';
+import 'build_page_with_transition.dart';
+
+part 'route_config.dart';
